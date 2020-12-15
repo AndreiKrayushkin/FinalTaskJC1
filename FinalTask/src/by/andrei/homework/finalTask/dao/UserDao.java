@@ -1,0 +1,8 @@
+package by.andrei.homework.finalTask.dao;
+
+public interface UserDao {
+	
+	boolean authorization(String login, String password) throws DaoException;
+
+	boolean checkCredentials(String currentLine, String productSpecType, String productSpecValue);
+}
